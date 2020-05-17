@@ -8,8 +8,8 @@ services:
     volumes:
       - ./:/usr/share/nginx/html:ro
     environment:
-      - VIRTUAL_HOST=http://stiltex.apps.com.pe/,www.http://stiltex.apps.com.pe/
-      - LETSENCRYPT_HOST=http://stiltex.apps.com.pe/,www.http://stiltex.apps.com.pe/
+      - VIRTUAL_HOST=stiltex.apps.com.pe/,www.stiltex.apps.com.pe/
+      - LETSENCRYPT_HOST=stiltex.apps.com.pe/,www.stiltex.apps.com.pe/
       - LETSENCRYPT_EMAIL=kevin.silva.095@gmail.com
 networks:
   default:
